@@ -1,29 +1,376 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso Animación</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda de electrodomésticos y productos de línea blanca para tu hogar.">
+  <title>Línea Blanca | Tienda de electrodomésticos</title>
 </head>
+
 <body>
-    <h1>ANIMACIÓN Y TECNICAS DE DISEÑO</h1>
-    
-    <h2>Introducción a la Animación</h2>
+  <header>
+    <a href="#inicio">
+      <strong>Línea Blanca</strong>
+      <span>Electrodomésticos para tu hogar</span>
+    </a>
 
-    <p>La animación es el proceso de crear la ilusión de movimiento mediante la visualización de una serie de imágenes estáticas que cambian con el tiempo. A lo largo de la historia, la animación ha evolucionado desde simples dibujos a mano hasta complejas animaciones digitales.</p>
+    <nav aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Productos</a>
+      <a href="#proceso">Cómo comprar</a>
+      <a href="#hogar">Mi hogar</a>
+    </nav>
 
-    <ul>
-        <li><a href="animacion.html">Animación Tradicional</a></li>
-        <li><a href="animacion_2d.html">Animación 2D</a></li>
-        <li><a href="animacion_3d.html">Animación 3D</a></li>
-        <li><a href="tecnicas_disenio.html">Técnicas de Diseño</a></li>
-    </ul>
-    <ol>
-        <li>Historia de la Animación</li>
-        <li>Principios de la Animación</li>
-        <li>Software de Animación</li>
-        <li>Proyectos y Ejercicios</li>
-    </ol>
+    <a href="#administrador">Administrador</a>
+    <a href="#carrito">Carrito</a>
+  </header>
 
+  <main>
+    <section id="inicio">
+      <p>TODO PARA TU HOGAR</p>
+
+      <h1>Renueva tu hogar. Vive más cómodo.</h1>
+
+      <p>
+        Electrodomésticos para cada espacio y cada día.
+        Explora el catálogo, encuentra tu próximo equipo
+        y agrégalo al carrito.
+      </p>
+
+      <a href="#catalogo">Explorar productos</a>
+      <a href="#proceso">Cómo comprar</a>
+
+      <ul>
+        <li>Refrigeración</li>
+        <li>Lavado</li>
+        <li>Cocción</li>
+      </ul>
+
+      <p>LÍNEA BLANCA / COLECCIÓN HOGAR</p>
+      <p>Diseño · Tecnología · Comodidad</p>
+    </section>
+
+    <section aria-label="Pasos de compra">
+      <ol>
+        <li>Elige tu electrodoméstico.</li>
+        <li>Agrégalo al carrito.</li>
+        <li>Revisa tu compra.</li>
+      </ol>
+    </section>
+
+    <section id="catalogo">
+      <header>
+        <p>ELIGE LO QUE NECESITAS</p>
+        <h2>Equipos para tu hogar</h2>
+        <p>Encuentra tu próximo equipo. Precios en pesos chilenos.</p>
+      </header>
+
+      <div aria-label="Categorías de productos">
+        <button type="button">Todos</button>
+        <button type="button">Lavado</button>
+        <button type="button">Refrigeración</button>
+        <button type="button">Cocción</button>
+      </div>
+
+      <label for="buscar-producto">Buscar producto</label>
+      <input
+        type="search"
+        id="buscar-producto"
+        name="buscar"
+        placeholder="Buscar producto"
+      >
+
+      <div>
+        <article>
+          <p>LAVADO</p>
+          <h3>Lavadora automática 9 kg</h3>
+          <p>Carga frontal · Capacidad de 9 kg · Diseño blanco.</p>
+          <p><strong>$299.990</strong></p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+
+        <article>
+          <p>REFRIGERACIÓN</p>
+          <h3>Refrigerador No Frost 300 L</h3>
+          <p>Dos puertas · Capacidad de 300 litros · Acabado inoxidable.</p>
+          <p><strong>$449.990</strong></p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+
+        <article>
+          <p>LAVADO</p>
+          <h3>Secadora de ropa 8 kg</h3>
+          <p>Capacidad de 8 kg · Programas de secado · Diseño compacto.</p>
+          <p><strong>$279.990</strong></p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+
+        <article>
+          <p>COCCIÓN</p>
+          <h3>Horno eléctrico 65 L</h3>
+          <p>Empotrable · Capacidad de 65 litros · Acabado negro.</p>
+          <p><strong>$219.990</strong></p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+
+        <article>
+          <p>COCCIÓN</p>
+          <h3>Cocina a gas 4 quemadores</h3>
+          <p>Cuatro quemadores · Horno integrado · Acabado inoxidable.</p>
+          <p><strong>$249.990</strong></p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+
+        <article>
+          <p>LAVADO</p>
+          <h3>Lavadora carga superior 12 kg</h3>
+          <p>Capacidad de 12 kg · Carga superior · Panel digital.</p>
+          <p><strong>$329.990</strong></p>
+          <button type="button">Agregar al carrito</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="proceso">
+      <p>TU PRÓXIMO EQUIPO, A UNOS CLICS</p>
+      <h2>Comprar comienza con una buena elección.</h2>
+
+      <p>
+        Compara los equipos del catálogo y revisa
+        el detalle de tu carrito.
+      </p>
+
+      <ol>
+        <li>
+          <h3>Encuentra tu equipo</h3>
+          <p>Filtra por lavado, refrigeración o cocción.</p>
+        </li>
+
+        <li>
+          <h3>Arma tu carrito</h3>
+          <p>Selecciona los productos y las cantidades que necesitas.</p>
+        </li>
+
+        <li>
+          <h3>Revisa el total</h3>
+          <p>Consulta el resumen antes de continuar con tu compra.</p>
+        </li>
+      </ol>
+
+      <a href="#catalogo">Explorar catálogo</a>
+    </section>
+
+    <section>
+      <p>LÍNEA BLANCA PARA CADA DÍA</p>
+      <h2>Tu casa. Tu estilo. Tu próximo equipo.</h2>
+      <p>Descubre electrodomésticos para renovar tus espacios.</p>
+      <a href="#catalogo">Ver productos</a>
+    </section>
+
+    <section id="hogar">
+      <p>CADA ESPACIO TIENE SU EQUIPO</p>
+      <h2>Elige para tu hogar</h2>
+
+      <article>
+        <p>01 / LAVADO</p>
+        <h3>Lavado a tu medida.</h3>
+        <p>
+          Compara capacidades y elige una lavadora
+          o secadora para tu rutina.
+        </p>
+      </article>
+
+      <article>
+        <p>02 / REFRIGERACIÓN</p>
+        <h3>Espacio para lo que importa.</h3>
+        <p>
+          Revisa las dimensiones y la capacidad
+          antes de elegir tu refrigerador.
+        </p>
+      </article>
+
+      <article>
+        <p>03 / COCCIÓN</p>
+        <h3>Tu cocina, tu inspiración.</h3>
+        <p>
+          Encuentra hornos y cocinas que se adapten
+          al espacio disponible.
+        </p>
+      </article>
+    </section>
+
+    <section id="carrito">
+      <h2>Mi carrito</h2>
+      <p>Tu carrito está vacío.</p>
+
+      <dl>
+        <dt>Total</dt>
+        <dd>$0</dd>
+      </dl>
+
+      <p>Valores en CLP. Despacho no incluido en este mockup.</p>
+      <button type="button">Revisar compra</button>
+      <p>Demostración: no se realiza ningún cobro.</p>
+    </section>
+
+    <section id="administrador">
+      <p>GESTIÓN DEL CATÁLOGO</p>
+      <h2>Administrador</h2>
+
+      <p>Panel de demostración, sin cuentas ni permisos de acceso reales.</p>
+
+      <form>
+        <h3>Agregar producto</h3>
+
+        <div>
+          <label for="nombre-producto">Nombre del producto</label>
+          <input
+            type="text"
+            id="nombre-producto"
+            name="nombre"
+            placeholder="Ej. Lavadora 9 kg"
+            maxlength="100"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="categoria-producto">Categoría</label>
+          <select id="categoria-producto" name="categoria">
+            <option value="lavado">Lavado</option>
+            <option value="refrigeracion">Refrigeración</option>
+            <option value="coccion">Cocción</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="precio-producto">Precio en pesos chilenos</label>
+          <input
+            type="number"
+            id="precio-producto"
+            name="precio"
+            min="1"
+            max="999999999"
+            step="1"
+            placeholder="299990"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="descripcion-producto">Descripción</label>
+          <textarea
+            id="descripcion-producto"
+            name="descripcion"
+            rows="4"
+            maxlength="250"
+            placeholder="Capacidad, características y detalles"
+            required
+          ></textarea>
+        </div>
+
+        <button type="button">Guardar producto</button>
+        <button type="reset">Nuevo producto</button>
+      </form>
+
+      <section aria-label="Gestión de productos publicados">
+        <h3>Productos publicados</h3>
+
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Producto</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Acciones</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Lavadora automática 9 kg</td>
+              <td>Lavado</td>
+              <td>$299.990</td>
+              <td>
+                <button type="button">Editar</button>
+                <button type="button">Eliminar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Refrigerador No Frost 300 L</td>
+              <td>Refrigeración</td>
+              <td>$449.990</td>
+              <td>
+                <button type="button">Editar</button>
+                <button type="button">Eliminar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Secadora de ropa 8 kg</td>
+              <td>Lavado</td>
+              <td>$279.990</td>
+              <td>
+                <button type="button">Editar</button>
+                <button type="button">Eliminar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Horno eléctrico 65 L</td>
+              <td>Cocción</td>
+              <td>$219.990</td>
+              <td>
+                <button type="button">Editar</button>
+                <button type="button">Eliminar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cocina a gas 4 quemadores</td>
+              <td>Cocción</td>
+              <td>$249.990</td>
+              <td>
+                <button type="button">Editar</button>
+                <button type="button">Eliminar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Lavadora carga superior 12 kg</td>
+              <td>Lavado</td>
+              <td>$329.990</td>
+              <td>
+                <button type="button">Editar</button>
+                <button type="button">Eliminar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#inicio">
+      <strong>Línea Blanca</strong>
+      <span>Electrodomésticos para tu hogar</span>
+    </a>
+
+    <p>Todo para tu hogar. Un equipo para cada día.</p>
+
+    <nav aria-label="Enlaces del pie de página">
+      <a href="#catalogo">Explorar productos</a>
+      <a href="#proceso">Cómo comprar</a>
+      <a href="#hogar">Mi hogar</a>
+    </nav>
+
+    <p>
+      Línea Blanca · Mockup de tienda.
+      Productos y precios de ejemplo.
+      No se realizan pagos ni pedidos reales.
+    </p>
+  </footer>
 </body>
 </html>
